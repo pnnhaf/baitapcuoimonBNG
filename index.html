@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blush Perfume Store</title>
+    <link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <input type="file" id="logo-upload" accept="image/*" style="display:none;">
+            <img id="logo-image" src="img/Design de logotipo de perfume de fragrância de essência de luxo isolado fundo _ Vetor Premium.png" alt="Store Logo" class="logo-img">
+            <label for="logo-upload" class="logo-upload-label">
+            </label>
+        </div>
+	
+        <nav>
+            <ul>
+                <li><a href="#perfume">Nước hoa nữ</a></li>
+				<li><a href="#perfume">Nước hoa nam</a></li>
+                <li><a href="#brand">Nhãn hàng</a></li>
+                <li><a href="#shop">Cửa hàng</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <div class="search-container">
+                <input type="text" placeholder="Tìm kiếm...">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="auth-container">
+				<button id="login-btn" class="auth-btn" onclick="window.location.href='site dang nhap.html'">Đăng nhập</button>
+                <button id="register-btn" class="auth-btn" onclick="window.location.href='site dan ki.html'">Đăng ký</button>
+				
+            </div>
+    </header>
+
+    <main>
+       <section class="hero-slider">
+    <div class="slider-container">
+        <div class="slider-item active">
+            <img src="img/MD_Parfum_Instit_NP_CutOut_5550x2000.jpg" alt="Luxury Perfume Collection" class="slider-image">
+            <div class="slider-content">
+                <h1>Miss Dior</h1>
+                <p>Năm 1947, Miss Dior ra đời từ một khát khao hoang dại, một mong muốn khẩn thiết để làm say đắm phụ nữ, để cho họ nhìn thấy lại những màu sắc rực rỡ của tình yêu. Hoa hồng Grasse, Lily of the Valley và Hoa lài kết hợp để tạo nên những bó hoa không thể quên được. Những bông hoa như một lời hứa về hạnh phúc.</p>
+<a href="#shop" class="cta-button">Mua ngay</a>
+            </div>
+        </div>
+             <div class="slider-item">
+            <img src="img/A25M128_FOREVER ASIE_Duo_Anya_Willow_3000X1770.jpg" alt="Elegant Perfume Campaign" class="slider-image">
+            <div class="slider-content">
+                        <h1>Women's Fragrances</h1>
+                        <p>Khám phá những hoa nước hoa san trọng phản ánh cảm xúc, lý tưởng để khám phá và chia sẻ với cả nam và nữ.</p>
+                        <a href="#new-arrivals" class="cta-button">Khám phá ngay</a>
+                    </div>
+                </div>
+               <div class="slider-item">
+            <img src="img/A25F197_LCP-Capot-Perso_GAMME_MALLES_3000X1770.jpg" alt="Artistic Perfume Collection" class="slider-image">
+            <div class="slider-content">
+                        <h1>La Collection Privée</h1>
+                        <p>Tại Dior, ý tưởng được chuyển thành những sáng tạo để đồng hành cùng các mùa. Trang điểm đầy màu sắc phù hợp với mọi phong cách của Peter Philips, nước hoa tuyên bố do Francis Kurkdjian sáng tác và chăm sóc da hiệu suất cao.</p>
+                        <a href="#limited-edition" class="cta-button">Phiên bản giới hạn</a>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <span class="slider-dot active"></span>
+                    <span class="slider-dot"></span>
+                    <span class="slider-dot"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="best-selling">
+            <h2>Best Selling Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="img/1.webp" alt="Perfume 1">
+                    <h3>Miss Dior Parfum</h3>
+					<h4>Perfume - Intense Floral, Fruity and Woody</h4>
+                    <p class="price">$115.00</p>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Thêm vào giỏ hàng</button>
+                        <i class="fas fa-heart favorite-icon"></i>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/2.webp" alt="Perfume 2">
+                    <h3>Miss Dior Blooming Bouque</h3>
+					<h4>Eau de Toilette - Fresh and Tender</h4>
+                    <p class="price">$115.00</p>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Thêm vào giỏ hàng</button>
+                        <i class="fas fa-heart favorite-icon"></i>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/3.webp" alt="Perfume 3">
+                    <h3>Miss Dior Rose N'Roses</h3>
+					<h4>Eau de Toilette - Floral and Sparkling</h4>
+                    <p class="price">$93.00</p>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Thêm vào giỏ hàng</button>
+                        <i class="fas fa-heart favorite-icon"></i>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/4.webp" alt="Perfume 4">
+                    <h3>Personalizable Miss Dior Eau de Parfum</h3>
+					<h4>Eau de Parfum - Floral and Sensual Notes - Personalizable Bottle</h4>
+                    <p class="price">$115.00</p>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Thêm vào giỏ hàng</button>
+                        <i class="fas fa-heart favorite-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <div class="contact-info">
+                <h3>Thông tin liên hệ</h3>
+                <p>123 Nguyễn Đình Chiểu, Q3, Thành phố Hồ Chí Minh</p>
+                <p>Email: hello@blushperfume.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Blush Perfume Store. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const slider = document.querySelector('.slider-container');
+            const slides = slider.querySelectorAll('.slider-item');
+            const dots = slider.querySelectorAll('.slider-dot');
+            let currentSlide = 0;
+
+            function showSlide(index) {
+                slides.forEach(slide => slide.classList.remove('active'));
+                dots.forEach(dot => dot.classList.remove('active'));
+                
+                slides[index].classList.add('active');
+                dots[index].classList.add('active');
+            }
+
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    currentSlide = index;
+                    showSlide(currentSlide);
+                });
+            });
+
+            setInterval(() => {
+                currentSlide = (currentSlide + 1) % slides.length;
+                showSlide(currentSlide);
+            }, 5000);
+        });
+    </script>
+</body>
+</html>

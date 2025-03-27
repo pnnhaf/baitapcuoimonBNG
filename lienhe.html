@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ - Blush Perfume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body class="auth-page">
+    <div class="auth-container">
+        <div class="auth-box" style="max-width: 600px;">
+            <div class="auth-header">
+                <h1>Liên Hệ Blush Perfume</h1>
+                <p>Chúng tôi luôn sẵn sàng lắng nghe và hỗ trợ bạn</p>
+            </div>
+            
+            <form id="contact-form" action="/contact" method="post">
+                <div class="form-group">
+                    <label for="fullname">Họ và Tên</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                    <i class="fas fa-user icon"></i>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <i class="fas fa-envelope icon"></i>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Số Điện Thoại</label>
+                    <input type="tel" id="phone" name="phone">
+                    <i class="fas fa-phone icon"></i>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Nội Dung Tin Nhắn</label>
+                    <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;"></textarea>
+                    <i class="fas fa-comment icon" style="top: 70px;"></i>
+                </div>
+                
+                <div class="form-group">
+                    <label>Chủ Đề Liên Hệ</label>
+                    <select name="topic" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                        <option value="">Chọn chủ đề</option>
+                        <option value="support">Hỗ Trợ Khách Hàng</option>
+                        <option value="feedback">Góp Ý</option>
+                        <option value="product">Thông Tin Sản Phẩm</option>
+                        <option value="other">Khác</option>
+                    </select>
+                </div>
+                
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Gửi Tin Nhắn</button>
+                </div>
+            </form>
+
+            <div class="contact-info" style="margin-top: 20px; text-align: center;">
+                <h3>Thông Tin Liên Hệ Trực Tiếp</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Nguyễn Đình Chiểu, Q3, Thành phố Hồ Chí Minh</p>
+                <p><i class="fas fa-envelope"></i> hello@blushperfume.com</p>
+                <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
